@@ -1,0 +1,16 @@
+[package]
+name = "kflame"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1.0.93"
+ctor = "0.2.8"
+elf = "0.7.4"
+nonoverlapping_interval_tree = "0.1.5"
+qemu-plugin = "9.0.0-v0"
+rustc-demangle = { version = "0.1.24", features = ["std"] }
